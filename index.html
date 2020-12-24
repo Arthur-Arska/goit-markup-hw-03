@@ -18,7 +18,7 @@
     <header class="header">
         <div class="container">
             <nav class="navigation">
-                <a class="logo" href="index.html"><p>Web<span class="logo-studio-black">Studio</span></p></a>
+                <a class="logo" href="index.html">Web<span class="logo-studio-black">Studio</span></a>
 
                 <ul class="nav-menu">
                     <li class="nav-menu-list">
@@ -46,7 +46,7 @@
     </header>
     <main>
         <!-- Hero -->
-        <section class="hero">
+        <section class="hero container">
                 <div class="hero-baner">
                     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                     <button class="main-button" type="button">Заказать услугу</button>
@@ -55,9 +55,7 @@
         <!-- Features -->        
         <section class="studio-features">
             <div class="container">
-                <h2 hidden>Особенности студии</h2>
-
-                <div class="features section">
+                <h2 class="visually-hidden">Особенности студии</h2>
                     <ul class="feature-list list">
                         <li class="feature-list-item">
                             <h3 class="feauture-title">Внимание к деталям</h3>
@@ -76,14 +74,12 @@
                             <p class="feauture-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                         </li>
                     </ul>
-                </div>
             </div>
         </section>
         <!-- About pic -->
-        <section class="gallery-container">
-            <h2 class="gallery-title">Чем мы занимаемся</h2>
+        <section class="gallery-container section">
             <div class="container">
-                <div class="gallery">
+            <h2 class="gallery-title">Чем мы занимаемся</h2>
                     <ul class="gallery-list list">
                         <li class="gallery-list-item">
                             <img src="./images/gallery/gallery-1.jpg" alt="программист печатает код" width="370" height="294">
@@ -97,12 +93,11 @@
                                 height="294">
                         </li>
                     </ul>
-                </div>
             </div>
         </section>
         <!-- Our team -->
-        <section class="studio-team">
-            <div class="team">
+        <section class="studio-team section">
+            <div class="container">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-list list">
                     <li class="team-list-item">
@@ -139,13 +134,10 @@
     </main>
     <!-- Подвал -->
     <footer>
-        <div class="footer-container">
-            <a class="logo" href="./">
-                <p>Web<span class="logo-studio-white">Studio</span></p>
-            </a>
-            <address>
+        <div class="footer-container container">
+            <a class="logo" href="./">Web<span class="logo-studio-white">Studio</span></a>
                 <ul class="address">
-                    <li class="address-item">
+                    <li class="address-item ">
                         <a class="footer-address" href="https://goo.gl/maps/x4nBV2eikP3uwNPG8" target="_blank">г. Киев, пр-т
                             Леси Украинки, 26</a>
                     </li>
@@ -156,7 +148,7 @@
                         <a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
-            </address>
+
         </div>
     </footer>
     </body>
