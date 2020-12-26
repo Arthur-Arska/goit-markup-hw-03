@@ -61,6 +61,19 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ========== HEADER ==========*/
 
 .header {
@@ -251,6 +264,14 @@ a {
 }
 /* ========== OUR TEAM ==========*/
 
+.studio-team {
+  background-color: #f5f4fa;
+}
+
+.team-wrapper {
+  padding-top: 30px;
+}
+
 .team-title {
   font-family: "Roboto", sans-serif;
 
@@ -276,7 +297,6 @@ a {
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -419,19 +439,6 @@ a {
   background-color: green;*/
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .button-list {
   margin-top: 94px;
   margin-bottom: 50px;
@@ -449,8 +456,7 @@ a {
   line-height: 1.625;
   letter-spacing: 0.03em;
   color: #212121;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+
   border-radius: 4px;
 }
 
@@ -458,6 +464,8 @@ a {
 .button:focus {
   color: #ffffff;
   background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .item:not(:last-child) {
