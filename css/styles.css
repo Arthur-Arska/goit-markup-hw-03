@@ -324,6 +324,10 @@ a {
 
 /* ========== FOOTER ==========*/
 
+.footer {
+  background-color: #2f303a;
+}
+
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -343,7 +347,6 @@ a {
 }
 
 .footer-container {
-  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -387,14 +390,6 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.portfolio {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .flex-container {
